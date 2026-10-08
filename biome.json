@@ -14,8 +14,7 @@
       "!public/r",
       "!playwright-report",
       "!test-results",
-      "!.claude/skills",
-      "!docs/qa"
+      "!.claude/skills"
     ]
   },
   "formatter": {

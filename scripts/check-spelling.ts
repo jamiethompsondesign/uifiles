@@ -8,7 +8,7 @@
 //
 // Without files it checks every tracked or untracked-but-not-ignored file
 // with a text extension (git ls-files), except the paths in SKIPPED: vendored
-// and generated trees, license texts and the QA transcripts. Exits 1 and
+// and generated trees and license texts. Exits 1 and
 // lists `path:line: word → replacement` when it finds anything; `--fix`
 // rewrites the files in place (the case of the word is kept) and exits 0.
 // A line containing `spelling-ok` is not checked.
@@ -39,7 +39,6 @@ export const SKIPPED = [
   "skills-lock.json",
   "pnpm-lock.yaml",
   "components/ui/", // vendored shadcn/ui; do not edit by hand
-  "docs/qa/", // archived QA transcripts, kept as written
   "scripts/check-spelling.ts", // the word list
   "tests/unit/check-spelling.test.ts",
 ]
