@@ -301,7 +301,6 @@ describe("scripts/check-spelling.ts file selection", () => {
       "skills-lock.json",
       "pnpm-lock.yaml",
       "components/ui/button.tsx",
-      "docs/qa/HANDOFF.md",
       "scripts/check-spelling.ts",
       "tests/unit/check-spelling.test.ts",
       "public/favicon.ico",

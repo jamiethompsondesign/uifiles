@@ -62,9 +62,7 @@ the origin is derived from the project domain, and a production build that would
 advertise localhost fails there and warns everywhere else (`.env.example`).
 
 `AGENTS.md` is the contributor guide (for people and agents), `CONTRIBUTING.md` the
-workflow, and `docs/architecture.md` the decisions behind the shape. `docs/qa/` is the QA
-log: the unedited briefs, reports and verdicts from the adversarial QA rounds that ran before
-the first release.
+workflow, and `docs/architecture.md` the decisions behind the shape.
 
 ## Layout
 
